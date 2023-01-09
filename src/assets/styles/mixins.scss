@@ -1,0 +1,35 @@
+$lg: 1024px;
+$md: 959px;
+$sm: 768px;
+$xs: 575px;
+
+@mixin fill-svg ($color) {
+  path {
+    fill: $color !important;
+    transition: fill 0.2s ease;
+  }
+}
+
+@mixin media-lg {
+  @media (max-width: $lg) {
+    @content;
+  }
+}
+
+@mixin media-md {
+  @media (max-width: $md) {
+    @content;
+  }
+}
+
+@mixin media-sm {
+  @media (max-width: $sm) {
+    @content;
+  }
+}
+
+@mixin media-xs {
+  @media (max-width: $xs) {
+    @content;
+  }
+}

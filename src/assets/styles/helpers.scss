@@ -1,0 +1,50 @@
+button {
+  color: #000000;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+
+.text-normalize {
+  text-transform: initial !important;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.a {
+  &-center {
+    align-items: center !important;
+  }
+  &-start {
+    align-items: flex-start !important;
+  }
+  &-end {
+    align-items: flex-end !important;
+  }
+}
+
+.j {
+  &-center {
+    justify-content: center !important;
+  }
+  &-between {
+    justify-content: space-between !important;
+  }
+  &-start {
+    justify-content: flex-start !important;
+  }
+  &-end {
+    justify-content: flex-end !important;
+  }
+}
+
+.v-snack__content {
+  font-size: 18px;
+}
+
+.fullwidth {
+  width: 100%;
+}

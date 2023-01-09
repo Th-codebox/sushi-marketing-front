@@ -1,0 +1,128 @@
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fadeUp-enter,
+.fadeUp-leave-to {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.fadeUp-enter-active,
+.fadeUp-leave-active {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.fadeDown-enter,
+.fadeDown-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.fadeDown-enter-active,
+.fadeDown-leave-active {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.fadeLeft-enter-active {
+  animation: fadeLeft 0.3s;
+}
+
+.fadeLeft-leave-active {
+  animation: fadeLeft 0.3s reverse;
+}
+
+@keyframes fadeLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(30px, 0, 0);
+  }
+  70% {
+    transform: translate3d(-5px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0px, 0, 0);
+  }
+}
+
+.modal-enter-active,
+.modal-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.modal-enter,
+.modal-leave-to {
+  opacity: 0;
+}
+
+.zoom-enter,
+.zoom-leave-to {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.zoom-enter-active,
+.zoom-leave-active {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.slide-enter {
+  height: 0;
+}
+
+.slide-enter-active {
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.slide-leave-active {
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.slide-enter-to,
+.slide-leave {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.slide-enter,
+.slide-leave-to {
+  overflow: hidden;
+  max-height: 0;
+}
+
+// Animations
+.animation-headShake {
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-name: headShake;
+}
+
+@keyframes headShake {
+  0% {
+    transform: translateX(0);
+  }
+  6.5% {
+    transform: translateX(-6px) rotateY(-9deg);
+  }
+  18.5% {
+    transform: translateX(5px) rotateY(7deg);
+  }
+  31.5% {
+    transform: translateX(-3px) rotateY(-5deg);
+  }
+  43.5% {
+    transform: translateX(2px) rotateY(3deg);
+  }
+  50% {
+    transform: translateX(0);
+  }
+}

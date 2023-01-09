@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="173.06" height="36" viewBox="0 0 173.06 36">
+  <g id="Сгруппировать_4526" data-name="Сгруппировать 4526" transform="translate(-27 -1013)">
+    <g id="Сгруппировать_840" data-name="Сгруппировать 840" transform="translate(15 18)">
+      <text id="Powered_by" data-name="Powered by" transform="translate(60 1009)" fill="#636363" font-size="13" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="0">Powered by</tspan></text>
+      <path id="Контур_3610" data-name="Контур 3610" d="M12.48-13H1.3v-2.6H12.48ZM4.16-6.5V0H1.3V-10.66H4.16V-9.1h7.28v2.6ZM14.82,0V-2.6h2.6V0Zm9.75-15.6v4.654L22.986-5.2H24.44v2.6H22.309L21.632,0H18.753L22.88-15.6Zm2.08,4.55V-15.6h1.69L32.493,0H29.614l-.69-2.6H26.78V-5.2h1.454ZM33.8,0V-2.6h2.6V0Zm7.8-15.6V0H38.74V-15.6Zm2.08,9.1V-9.1h.26l3.9-3.9v-2.6H50.7v3.675L46.574-7.8,50.7-3.675V0H47.84V-2.6l-3.9-3.9ZM53.04,0V-2.6h2.6V0Zm8.71-10.66h2.86V0H61.75ZM68.77-13H57.59v-2.6H68.77Zm19.76,0v-2.6h2.21l2.6,2.6v2.34H90.48v-1.3L89.44-13Zm-2.34-2.6V-13h-.91l-1.04,1.04v8.32L85.28-2.6h.91V0H83.98l-2.6-2.6V-13l2.6-2.6ZM88.53,0V-2.6h.91l1.04-1.04v-1.3h2.86V-2.6L90.74,0Zm7.41-10.66H98.8V0H95.94Zm7.8-2.34h-7.8v-2.6h9.1l2.6,2.6v4.94l-2.21,2.21,2.21,2.21V0h-2.86V-2.6l-2.86-2.86h-1.04v-2.6h2.86l1.04-1.04v-2.86ZM122.2-7.93l2.86-2.86V0H122.2Zm-11.96-2.86,2.86,2.86V0h-2.86Zm14.82-3.215-7.367,7.368-7.453-7.479V-15.6h2.34l5.061,5.079L122.72-15.6h2.34Z" transform="translate(60 1031)" fill="#363636"/>
+    </g>
+    <circle id="Эллипс_255" data-name="Эллипс 255" cx="15.5" cy="15.5" r="15.5" transform="translate(27 1018)" fill="#363636"/>
+    <g id="Эллипс_256" data-name="Эллипс 256" transform="translate(48 1017)" fill="#92000f" stroke="#040404" stroke-width="3">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="6" fill="none"/>
+    </g>
+  </g>
+</svg>
